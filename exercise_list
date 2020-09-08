@@ -239,4 +239,17 @@
 		Even numbers: 2
 		Odd numbers: 1
 
-27.
+27. create a method 'printText' that prints the following string of characters: "In the beginning there were the swamp,
+	 the hoe and Java." The program should prompt the user how many times the text should be printed
+	 output:
+		How many? 7
+
+		In the beginning there were the swamp, the hoe and Java.
+		In the beginning there were the swamp, the hoe and Java.
+		In the beginning there were the swamp, the hoe and Java.
+		In the beginning there were the swamp, the hoe and Java.
+		In the beginning there were the swamp, the hoe and Java.
+		In the beginning there were the swamp, the hoe and Java.
+		In the beginning there were the swamp, the hoe and Java.
+
+28. 
