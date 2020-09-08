@@ -1,0 +1,242 @@
+1. create a program that prints your name to the screen
+	output:
+		Joe Doe
+
+2. create a program that prints out the following
+	output:
+		Hello world!
+		 (And all the people of the world)
+
+3. create a program that counts how many seconds there are in a year. You can assume that a year consists of 365 days
+   (therefore the eyar is not a leap year)
+	output:
+		There are X seconds in a year.
+
+4. create a program that calculates the sum of two numbers. At the beginning of the program two variables are introduced
+	and those variables hold the numbers to be summed.
+	output: (if variables hold nubmers 5 and 4)
+		5 + 4 = 9
+		 
+5. create a program that calculates the product of two numbers.
+	output:
+		2 * 8 = 16
+		277 * 111 = 30747 
+
+6. create a program that asks the user for two integers and then prints their sum
+	output:
+		Enter a number: 6
+		Enter another number: 2
+
+		Sum of the numbers: 8
+
+7. create a program that asks the user for two integers and prints their quotient (including decimal part)
+	output:
+		Enter a number: 3
+		Enter another number: 2
+
+		Division: 3 / 2 = 1.5
+
+8. The circumference of a circle is calculated using the formula 2 * pi * radius. Create a program that asks the user for the 
+	radius and then calculates the circumference using the given radius. hint: Math.PI contains the value of PI
+	output:
+		Enter the radius: 20
+
+		Circumference of the circle: 125.66370614359172
+
+9. create a program that asks the user for two integers and then prints the larger of the two. (hint: use Math class)
+	output:
+		Enter a number: 20
+		Enter another number: 14
+
+		The bigger number of the two numbers given was: 20
+
+10. create a program that prompts the user for a number and tells if the number is a positive number.
+	 output:
+		Enter a number: 5
+
+		The number is positive.
+
+		Enter a number: -2
+
+		The number is not positive.
+
+11. create a program that asks the user for a number and tells whether the number is even or odd.
+	 output:
+		Enter a number: 2
+		Number 2 is even.
+
+		Enter a number: 7
+		Number 7 is odd.
+
+12. create a program that asks the user for two numbers and prints the greater of those two. The program should
+	 also handle the case in which the two numbers are equal.
+	 output:
+		Enter the first number: 5
+		Enter the seccond number: 3
+
+		Greater number: 5
+
+		Enter the first number: 5
+		Enter the second number: 8
+
+		Greater number: 8
+
+13. create a program that gives the course grade based on the following table.
+	Points		Grade
+	0-29			failed
+	30-34			1
+	35-39			2
+	40-44			3
+	45-49			4
+	50-60			5
+
+	output:
+		Enter the points [0-60]: 37
+
+		Grade: 2
+
+14. create a program that recognizes the following users:
+		username		password
+		 alex			 mightyducks
+		 emily		 cat
+	 the  program should check for the username and password as follows:
+	 output:
+		Enter your username: alex
+		Enter your password: mightyducks
+		You are now logged into the system!
+
+		Enter your username: emily
+		Enter your password: dog
+		Your username or password was invalid!
+
+15. A year is a leap year if it is divisible by 4. But if the year is divisible by 100, it is a leap year only when it is also divisible by 400.
+	 create a program that checks whether the given year is a leap year.
+	 output:
+		Enter a year: 2011
+		The year is not a leap year.
+
+		Enter a eyar: 2012
+		The eyar is a leap year.
+
+		Enter a year: 1800
+		The year is not a leap year.
+
+		Enter a year: 2000
+		The year is a leap year.
+
+16. create a program that aks the sue for a password. If the password is reight, a secret message is shown to the user.
+	 output:
+		Enter the password: turnip
+		Wrong!	
+		Enter the password: beetroot
+		Wrong!
+		Enter the password: carrot
+		Right!
+
+		The secret is: jryy qbar!
+
+17. create a program that asks the user for three numbers and then prints their sum. Use the following strucuture in your program:
+	Scanner reader = new Scanner(System.in);
+	int sum = 0;
+	int read;
+
+	//program code goes here
+	//use only variables sum, read, reader
+
+	System.out.println("Sum: " + sum);
+
+	output:
+		Enter the first number: 3
+		Enter the second number: 6
+		Enter the third number: 12
+
+		Sum: 21
+
+18. create a program that reads numbers from the user and prints their sum. The program should stop asking for numbers when user enters the number 0.
+	 the program should be structure like this:
+		Scanner reader = new Scanner(System.in);
+		int sum = 0;
+		while (true) {
+			int read = reader.nextInt();
+			if(read == 0) break;
+			// do something here
+			System.out.println("Sum now: " + sum);
+		}
+
+		System.out.println("Sum in the end: " + sum);
+
+19. create a program that prints the integers (whole numbers) from 1 to 100.
+	 output:
+	 1
+	 2
+	 (manu rows of numbers)
+	 99
+	 100
+
+20. create a program that prints all even numbers between 2 and 100.
+	 output:
+		2
+		4
+		(many rows of numbers)
+		98
+		100
+
+21. create a program that prints all whole numbers from 1 to the number the user enters.
+	 output:
+		Up to what number? 3
+		1
+		2
+		3
+
+22. create a program that asks the suer for t he first number and the last number and then prints all numbers between those two.
+	 output:
+		First: 5
+		Last: 8
+		5
+		6
+		7
+		8
+	 note: if the first number is greater than the last number, the program prints nothing
+
+23. create a program that calculates the sum 1+2+3+...+n where n is a number entered by the user.
+	 output:
+		Until what? 3
+		Sum is 6
+
+		Until what? 7
+		Sum is 28
+
+24. create a program that calculates the factorial of the nubmer. The factorial n! is calculated using the formula 1*2*3*...*n.
+	 Additionally, it is defined that 0! = 1.
+	 output:
+		Enter a number: 3
+		Factorial is 6
+
+25. create a program that calculates the sum of 2^0+2^1+2^2+...+2^n, where n is a number entered by the user.
+	 note: you can use Math.pow() to calculate the power of a number (Math.pow returns a type double)
+	 output:
+		Enter a number: 3
+		The result is 15
+
+		Enter a number: 7
+		The result is 255
+
+26. create a program that asks the reader for numbers to enter and quits when the user enters -1 with the message "Thank you and see you later!".
+	 the program should print the sum of the numbers entered by the user (excluding -1)
+	 the program should count and print the number of integers entered
+	 the program should print the average of the numbers
+	 the program should print the number of even/odd numbers entered
+	 output:
+		Enter numbers:
+		5
+		2
+		4
+		-1
+		Thank you and see you later!
+		Sum: 11
+		Count:  3
+		Average: 3.6666666
+		Even numbers: 2
+		Odd numbers: 1
+
+27.
