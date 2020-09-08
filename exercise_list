@@ -252,4 +252,16 @@
 		In the beginning there were the swamp, the hoe and Java.
 		In the beginning there were the swamp, the hoe and Java.
 
-28. 
+28. create a method 'printStars' that prints the given amount of stars and a line break.
+	 create a method 'printSquare(int sideSize)' that prints a square using our previous method 'printStars'
+	 create a method 'printRectangle(int width, int height)' that prints a rectangle using 'printStars'
+	 create a method 'printTriangle(int size)' that prints a triangle using the 'printStars'
+	 output:
+		****
+		****
+		
+		*
+		**
+		***
+
+29.
