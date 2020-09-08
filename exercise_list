@@ -264,4 +264,15 @@
 		**
 		***
 
-29.
+29. create a program where the user guesses a number (range 1-100), the user should have only 5 attempts.
+	 hint: use Math.random() to generate random number
+	 output:
+		Guess a number: 73
+		The number is lesser, guesses made: 1
+		Guess a number: 22
+		The number is greater, guesses made: 2
+		Guess a number: 70
+		Congratulations, your guess is correct!
+
+30.
+		
