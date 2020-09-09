@@ -274,6 +274,11 @@
 		Guess a number: 70
 		Congratulations, your guess is correct!
 
-30.
+30. create a method sum that calculates the sum of numbers the method receives as parameters.
+	 output:
+		sum: 14
 		
 31. create the method 'least', which returns the least of the numbers given as parameter. 
+
+32.
+
