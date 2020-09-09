@@ -287,3 +287,19 @@
 33. create a method 'average' which calculates the average of the nubmers it gets as parameters. The method should use the helpe 'sum' method for its calculations.
 	 output: (input: 4, 3, 6, 1)
 		Average: 3.5
+
+34. create a program that asks for the user's name and says how many characters the name contains.
+	 the program should give the first character
+	 the program should give the last character
+	 the program should print the given name character's separately
+	 the program should print the given name in reverse order
+	 output:
+		Enter your name: Joe Doe
+		
+		Number of characters: 7
+		First character: J
+		Last character: e
+		Separately: J o e  D o e
+		Reverse order: eoD eoJ
+
+35.
