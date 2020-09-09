@@ -278,4 +278,7 @@
 	 output:
 		sum: 14
 		
-31.
+31. create the method 'least', which returns the least of the numbers given as parameter. 
+
+32.
+
