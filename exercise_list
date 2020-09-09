@@ -284,4 +284,6 @@
 	 output: (input: 2, 7, 3)
 		Greatest: 7
 
-33.
+33. create a method 'average' which calculates the average of the nubmers it gets as parameters. The method should use the helpe 'sum' method for its calculations.
+	 output: (input: 4, 3, 6, 1)
+		Average: 3.5
