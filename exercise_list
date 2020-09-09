@@ -280,5 +280,8 @@
 		
 31. create the method 'least', which returns the least of the numbers given as parameter. 
 
-32.
+32. create a method 'greatest', which gets a list of integers as parameters and then returns the greatest of them.
+	 output: (input: 2, 7, 3)
+		Greatest: 7
 
+33.
