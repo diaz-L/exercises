@@ -307,3 +307,11 @@
 		Enter a word: example
 		Length of the first part: 4
 		Result: exam
+
+36. create a program that prints the end part of a word. The progam asks the user for thw word and the length of the end part.
+	 output:
+		Enter a word: example
+		Length of the end part: 4
+		Result: mple
+
+37.
