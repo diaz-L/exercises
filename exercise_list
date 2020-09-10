@@ -302,4 +302,8 @@
 		Separately: J o e  D o e
 		Reverse order: eoD eoJ
 
-35.
+35. create a program that prints the first part of a word. The program asks the user for the word and length of the first part.
+	 output:
+		Enter a word: example
+		Length of the first part: 4
+		Result: exam
