@@ -330,4 +330,17 @@
 		You gave the word celery twice.
 		Enter a word:
 
-39.
+39. create a program that asks the user to input words, until the user gives an empty string. The program will then print the words in reversed order, last word
+	 printed first.
+	 output:
+		Enter a word: Mozart
+		Enter a word: Schubert
+		Enter a word: Bach
+		Enter a word:
+
+		You typed the following words:
+		Bach
+		Schubert
+		Mozart
+
+40.
