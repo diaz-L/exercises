@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Exercise38
 {
@@ -9,25 +10,33 @@ public class Exercise38
 		System.out.println();
 
 		Scanner reader = new Scanner(System.in);
-		ArrayList<String> wordList = new ArrayList<>();
-		String word = "";
-		do {
+		ArrayList<String> words = new ArrayList<>();
+
+		while(true) {
 			System.out.print("Enter a word: ");
-			word = reader.nextLine();
-			if(wordList.contains(word)) {
+			String word = reader.nextLine();
+
+			if(word.equals(""))
+				break;	//done
+			else if(words.contains(word)) {
 				System.out.println("You gave the word " + word + " twice.");
 				continue;
-			}
-			wordList.add(word);
-		} while (isNotEqualEmptyString(word));	
-
-		System.out.println();	//empty line
-		for(var w : wordList)
-			System.out.println(w);
+			} else
+				words.add(word);
+		} 
+		
+		printWordList(words);
 	}
 
 	public static boolean isNotEqualEmptyString(String word)
 	{
 		return !word.equals("");
+	}
+
+	public static void printWordList(List<String> words)
+	{
+		System.out.println(); //empty line
+		for(var word : words)
+			System.out.println(word);
 	}
 }
