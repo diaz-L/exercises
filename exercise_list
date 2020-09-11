@@ -343,4 +343,15 @@
 		Schubert
 		Mozart
 
-40.
+40. create a program that prompts the user for a list of words, util the empty string is entered. The program will then print the list in alphabetical order.
+	 output:
+		Enter a word: Mozart
+		Enter a word: Bach
+		Enter a word: Liszt
+
+		You typed the following words:
+		Bach
+		Mozart
+		Liszt
+
+41.
