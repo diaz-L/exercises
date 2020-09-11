@@ -319,4 +319,15 @@
 		Enter a text: example
 		Reverse: elpmaxe
 
-38.
+38. create a program that asks the user to input words until the user types in an empty String. The program prints the words the user gave.
+	 If the word was already enter, warn the user ("you gave the word X twice."
+	 output:
+		Enter a word: carrot
+		Enter a word: celery
+		Enter a word: turnip
+		Enter a word: rutabaga
+		Enter a word: celery
+		You gave the word celery twice.
+		Enter a word:
+
+39.
