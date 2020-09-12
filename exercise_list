@@ -359,4 +359,11 @@
 		The sum: 14
 		The average is: 3.5
 
-42.
+42. create a method 'lengths' that gets a list of String variables as a parameter and returns an ArrayList that  contains the lengths of the Strings in the same
+	 order as the original list. Create another method 'greatest', which receives a list of numbers as a parameter and then returns the greatest number in the
+	 list as a return value.
+	 output:
+		The lengths of the Strings: [5, 3, 10, 27]
+		The greatest number is: 27
+
+43.
