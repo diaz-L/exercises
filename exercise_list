@@ -354,4 +354,9 @@
 		Mozart
 		Liszt
 
-41.
+41. create a program with the methods 'sum' and 'average' that take an ArrayList<Integer> and returns their sum and average.
+	 output:
+		The sum: 14
+		The average is: 3.5
+
+42.
