@@ -366,8 +366,20 @@
 		The lengths of the Strings: [5, 3, 10, 27]
 		The greatest number is: 27
 
-43. creat the method variance, which receives a list of two of more integers as a parameter and then returns the sample variance. 
+43. create the method variance, which receives a list of two of more integers as a parameter and then returns the sample variance. 
 	 output: (3, 2, 7, 2)
 		The variance is: 5.666667
 
-44.
+44. create the method 'moreThanOnce' that gets a list of integers and an integer as a parameter. If the number appears on the list more than once the
+	 method returns true, otherwise false.
+	 output:
+		Enter list of integers: 3 2 7 2
+		Enter a number: 2
+		2 appears more than once.
+
+		Enter a list of integers: 3 2 7 2
+		Enter a number: 3
+		3 does not appear more than once.
+
+45.
+
