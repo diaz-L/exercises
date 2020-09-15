@@ -381,5 +381,13 @@
 		Enter a number: 3
 		3 does not appear more than once.
 
-45.
+45. create the method 'palindrome' that checks if a string is a palindrome (reads the same forward and backward).
+	 output:
+		Enter text: madam
+		The text is a palindrome!
+
+		Enter text: example
+		The text is not a palindrome!
+
+46.
 
