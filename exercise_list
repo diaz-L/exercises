@@ -398,4 +398,12 @@
 		combine: [4, 3, 5, 10, 7, 4, 3]
 		uniqueCombine: [4, 3, 5, 10, 7]
 
-47.
+47. create a class Product that represents a product sold in a webshop. A product has a price, amount, and name.
+	 The class should have a constructor and toString method that prints a the product in the following form: Banana, price 1.1, amount 13
+	 outpu:
+		Products:
+			banana, price 1.1, amount 13
+			carrot, price 0.59, amount 7
+			cherries, price 1.59, amount 11
+
+48.
