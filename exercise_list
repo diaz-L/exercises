@@ -414,4 +414,12 @@
 		counter: 0
 		counter: 100
 
-49.
+49. create a class Menu that holds information about meals that are available in a cafeteria. The class should be able to print, clear, add entries to
+	 the menu.
+	 output:
+		Menu:
+			Humburger
+			Fish 'n' Chips
+			Sauerkraut
+
+50.
