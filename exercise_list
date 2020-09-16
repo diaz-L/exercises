@@ -406,4 +406,12 @@
 			carrot, price 0.59, amount 7
 			cherries, price 1.59, amount 11
 
-48.
+48. create a class Counter that keeps a counter and has methods for increasing, decrease, setInitial, resetting, and getting the state of the counter. Counter
+	 should never go below zero.
+	 output:
+		counter: 10
+		counter: 9
+		counter: 0
+		counter: 100
+
+49.
