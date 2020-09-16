@@ -389,5 +389,13 @@
 		Enter text: example
 		The text is not a palindrome!
 
-46.
+46. create a method 'combine' that inserts the items from one list into another where the list can have duplicates.
+	 create another method 'combineUnique' that inserts the items from one list into another but new items cannot repeat.
+	 output:
+		list1: [4, 3]
+		list2: [5, 10, 7, 4, 3]
 
+		combine: [4, 3, 5, 10, 7, 4, 3]
+		uniqueCombine: [4, 3, 5, 10, 7]
+
+47.
