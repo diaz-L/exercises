@@ -448,4 +448,12 @@
 		Pekka: The card has 31.0 euros
 		Brian: the card has 73.5 euros
 		
-51.
+51. create a class BoundedCounter with the following functionality:
+	 -keeps the value with the range 0 to upper bound
+	 -it starts at 0
+	 -upper bound it given to the constructor
+	 -next() to increment counter; if the upper bound is reach the next call to next() resets the counter to zero
+	 -toString() returns a string representation of the counter value; if the value is less than 10 at a zero to the start
+	 create a simple clock using the BoundedCounter that prints the time until the user terminates the program
+
+52.
