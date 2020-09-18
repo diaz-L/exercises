@@ -422,4 +422,30 @@
 			Fish 'n' Chips
 			Sauerkraut
 
-50.
+50. The University of Helsinki students use a so-called Lyyra cards to pay for their meals in student cafeterias. Implemet the class LyyraCard that
+	 simulates the Lyyra card. Implement:
+		-constructor that takes a starting balance
+		-toString() that returns a string of the form "The card has X eurors"
+		-payEconomical() that decreases the balance by 2.50 euros
+		-payGourmet() that decrease the balance by 4.00 euros
+			--if there's not enough balance the balance does not change (throw insufficient funds error)
+		-deposit() that increases the balance by given amount; negatives values ignore
+		-create a main method that creates a LyyraCard for Pekka and Brian with inital balances of 20 and 30 euros
+			--Pekka buys gourmet lunch
+			--Brian buys economical lunch
+			--cards are printed (owner's name included)
+			--Pekka loads 20 euros
+			--Brian buys gourmet lunch
+			--cars are printed
+			--Pekka buys 2 economical lunch
+			--Brian loads 50 euros
+			--both cards are printed
+	 output:
+		Pekka: The card has 16.0 euros
+		Brian: the card has 27.5 euros
+		Pekka: The card has 36.0 euros
+		Brian: the card has 23.5 euros
+		Pekka: The card has 31.0 euros
+		Brian: the card has 73.5 euros
+		
+51.
