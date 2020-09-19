@@ -14,8 +14,8 @@ public class Exercise51
 
 		while(true) {
 			Thread.sleep(1000);
-			timer.update();
-			System.out.println(clock);
+			timer.addSecond();
+			System.out.println(timer);
 		}
 	}
 }
