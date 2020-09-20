@@ -484,4 +484,13 @@
 		roll: 5
 		...
 
-54.
+54. create a class PasswordRandomizer that has the following functionality:
+	 -constructor which takes the length of generated password
+	 -createPassword() that returns a new random pasword which consist of symbols a-zA-Z0-9!@$
+	 output:
+		Password 1: arHJXp_u%4wb
+		Password 2: swLmDAYQRa_p
+		Password 3: CGmOqyj@_$xy
+		Password 4: %wG9hqW4npV5
+
+55.
