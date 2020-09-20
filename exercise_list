@@ -474,4 +474,14 @@
 		sum: 15
 		average: 3.75
 
-53.
+53. create a class Dice that has the following functionality:
+	 -constructor that takes in the number of sides
+	 -roll() that tells the result of a roll
+	 create a program that defines a dice of 6 sides and rolls 10 times.
+	 output:
+		roll: 6
+		roll: 3
+		roll: 5
+		...
+
+54.
