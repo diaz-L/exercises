@@ -456,4 +456,22 @@
 	 -toString() returns a string representation of the counter value; if the value is less than 10 at a zero to the start
 	 create a simple clock using the BoundedCounter that prints the time until the user terminates the program
 
-52.
+52. create a class NumberStatistics with the following functionality:
+	 -addEntry() adds a new number to the statistics
+	 -size() tells us how many numbers have been added
+	 -sum() returns sum of all added numbers(if no numbers, returns 0)
+	 -average() returns the average of the added numbers(if no numbers, returns 0)
+	 create a program that prompts the user to input numbers of type integer (-1 to end); the program stops and prints the number stats.
+	 output:
+		Enter numbers (-1 to end):
+		4
+		2
+		5
+		4
+		-1
+
+		count: 4
+		sum: 15
+		average: 3.75
+
+53.
