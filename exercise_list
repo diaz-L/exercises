@@ -493,4 +493,17 @@
 		Password 3: CGmOqyj@_$xy
 		Password 4: %wG9hqW4npV5
 
-55.
+55. create a LotteryNumbers class that draws lottery numbers of the week. The numbers of the week consist of 7 different numbers between 1 and 39, and the
+	 following functionality:
+	 -numbers() returns the drawn numbers of this draw
+	 -drawNumbers() draws new numbers
+	 -containsNumber() reveals if the number is amoung the drawn numbers
+
+	output:
+		Lottery numbers:
+		3 5 10 14 15 27 37
+
+		Lottery numbers:
+		2 9 11 18 23 32 34
+
+56.
