@@ -519,4 +519,10 @@
 	 -increase(int amount) increases the value by the amount; if amount is negative the value is ignore
 	 -decrease(int amount) decrease the value by amount but not below zero if checking is on; if amount is negative the value is ignore
 
-57.
+57. the information system of a housing service represents the apartments it has for sale using objects of the class Apartment. Create an
+	 Apartment class with the following functionality:
+	 -larger(Apartment) return true if the apartment is larger than the object is being compare to
+	 -priceDifference(Apartment) return absolute value of the price difference
+	 -moreExpensive(Apartment) return true if the apartment cost more
+
+58.
