@@ -506,4 +506,17 @@
 		Lottery numbers:
 		2 9 11 18 23 32 34
 
-56.
+56. create a Counter class that holds a number that can be increased and decreased. The counter also has an optional check that prevents the counter
+	 also has an optional check that prevents the counter from going below 0. The class has the following constructors:
+	 -Counter(int startingValue, boolean check)
+	 -Counter(int startingValue) creates a counter with checking off
+	 -Counter(boolean check) creates a counter with starting value of 0
+	 -Counter() creates a counter with value of 0 and checking off
+	 and the following methods:
+	 -value() returns the current value of the counter
+	 -increase() increase counter by one
+	 -decrease() decreases the value of counter by one, but no below zero if checking is on
+	 -increase(int amount) increases the value by the amount; if amount is negative the value is ignore
+	 -decrease(int amount) decrease the value by amount but not below zero if checking is on; if amount is negative the value is ignore
+
+57.
