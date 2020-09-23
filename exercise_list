@@ -525,4 +525,24 @@
 	 -priceDifference(Apartment) return absolute value of the price difference
 	 -moreExpensive(Apartment) return true if the apartment cost more
 
-58.
+58. create a class Student that holds both a name and student number, then create a menu drive test program that allows to add students or print a list of
+	 students in the format 'student_name (student_number)'
+	 output:
+		1 - Add Student
+		2 - Print student list
+		3 - Quit
+
+		Enter choice: 1
+	
+	 	Enter student name: joe doe
+	 	Enter student number: 013141590
+
+		1 - Add Student
+		2 - Print student list
+		3 - Quit
+
+		Enter choice: 2
+
+		joe doe (013141590)
+
+59.
