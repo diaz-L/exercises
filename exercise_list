@@ -539,10 +539,13 @@
 
 		1 - Add Student
 		2 - Print student list
-		3 - Quit
+		3 - Search
+		4 - Quit
 
 		Enter choice: 2
 
 		joe doe (013141590)
+
+		update: add search term menu option where the user can search for student(s) by given term
 
 59.
