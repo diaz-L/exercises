@@ -21,6 +21,8 @@ public class Exercise58
 				addStudent(students);
 			else if(choice == 2)
 				printStudentList(students);
+			else if(choice == 3)
+				searchForStudent(students);
 			else
 				break;
 		}
@@ -32,7 +34,8 @@ public class Exercise58
 		System.out.println();
 		System.out.println("1 - Add student");
 		System.out.println("2 - Print student list");
-		System.out.println("3 - Quit");
+		System.out.println("3 - Search");
+		System.out.println("4 - Quit");
 		System.out.println();
 		System.out.print("Enter choice: ");
 	}
@@ -57,5 +60,30 @@ public class Exercise58
 		int number = reader.nextInt();
 		
 		students.add(new Student(name, number));
+	}
+
+	public static void searchForStudent(ArrayList<Student> students)
+	{
+		String term = getSearchTerm();	
+
+		for(var student : students)
+			if(doesStudentMatchesTerm(student.toString(), term))
+				System.out.println("\t" + student);
+
+		System.out.println();
+	}
+
+	private static String getSearchTerm()
+	{
+		Scanner reader = new Scanner(System.in);
+	
+		System.out.println();
+		System.out.print("search: ");
+		return reader.nextLine();
+	}
+
+	private static boolean doesStudentMatchesTerm(String student, String term)
+	{
+		return (student.indexOf(term) == -1) ? false : true;
 	}
 }
