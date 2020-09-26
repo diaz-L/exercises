@@ -548,4 +548,26 @@
 
 		update: add search term menu option where the user can search for student(s) by given term
 
-59.
+59. create a class Team with the following functionality:
+	 -instance variable 'name'
+	 -a constructor that sets the team name
+	 -getName() that returns the name
+	 -addPlayer() adds player to team; cannot add more than maxSize
+	 -printPlayers() prints the players in the team
+	 -size() returns the number of players in the team
+	 -setMaxSize(int maxSize) sets the maximum number of players that team can have; default is 16
+	 -goals() return the total number of goals for all the players in the team
+
+	 create a class Player with the following functionality:
+	 -instance variable 'name' and amount of goals
+	 -two constructor; one to initialize name and another to initialize name and amount of goals
+	 -getName() returns player's name
+	 -goals() returns the number of goals
+	 -toString() 
+
+	output:
+		Team: FC Barcelona
+		Player: Brian, goals 0
+		Player: Pekka, goals 39
+		Number of players: 1
+		Total goals: 40
