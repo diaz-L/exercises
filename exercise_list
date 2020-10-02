@@ -605,4 +605,8 @@
 		Joe Doe, phone: 555-5555
 		Susan Frank, phone: 555-5555
 
-61.
+61. create a class MyArray with two methods for copying and reverse copying the given array. Write test program that uses and prints the results.
+	 output:
+		original: [1,2,3,4]
+		copied: [99,2,3,4]
+		reversed: [4,3,2,1]
